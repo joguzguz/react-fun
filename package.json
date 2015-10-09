@@ -1,0 +1,18 @@
+{
+  "name": "react-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "react": "^0.14.0",
+    "watchify": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "watchify -t babelify ./src/app.jsx -o ./dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
